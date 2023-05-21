@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-11T14:20:58 IST" name="Default suite" finished-at="2023-05-11T14:20:58 IST" duration-ms="83">
+    <groups>
+      <group name="MD">
+        <method signature="DemoAtt.pHD()[pri:4, instance:businessComponents.DemoAtt@51dcb805]" name="pHD" class="businessComponents.DemoAtt"/>
+      </group> <!-- MD -->
+      <group name="DR">
+        <method signature="DemoAtt.dr()[pri:5, instance:businessComponents.DemoAtt@51dcb805]" name="dr" class="businessComponents.DemoAtt"/>
+      </group> <!-- DR -->
+      <group name="Arts">
+        <method signature="DemoAtt.std()[pri:0, instance:businessComponents.DemoAtt@51dcb805]" name="std" class="businessComponents.DemoAtt"/>
+        <method signature="DemoAtt.hrSec()[pri:1, instance:businessComponents.DemoAtt@51dcb805]" name="hrSec" class="businessComponents.DemoAtt"/>
+        <method signature="DemoAtt.ug()[pri:2, instance:businessComponents.DemoAtt@51dcb805]" name="ug" class="businessComponents.DemoAtt"/>
+        <method signature="DemoAtt.pg()[pri:3, instance:businessComponents.DemoAtt@51dcb805]" name="pg" class="businessComponents.DemoAtt"/>
+      </group> <!-- Arts -->
+    </groups>
+    <test started-at="2023-05-11T14:20:58 IST" name="Default test" finished-at="2023-05-11T14:20:58 IST" duration-ms="83">
+      <class name="businessComponents.DemoAtt">
+        <test-method signature="exceldata(java.lang.String,java.lang.String)[pri:-1, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="exceldata" data-provider="datatable" finished-at="2023-05-11T14:20:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldata -->
+        <test-method signature="exceldata(java.lang.String,java.lang.String)[pri:-1, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="exceldata" data-provider="datatable" finished-at="2023-05-11T14:20:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldata -->
+        <test-method signature="exceldata(java.lang.String,java.lang.String)[pri:-1, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="exceldata" data-provider="datatable" finished-at="2023-05-11T14:20:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldata -->
+        <test-method signature="exceldata(java.lang.String,java.lang.String)[pri:-1, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="exceldata" data-provider="datatable" finished-at="2023-05-11T14:20:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldata -->
+        <test-method signature="std()[pri:0, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="std" description="10th std" finished-at="2023-05-11T14:20:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- std -->
+        <test-method signature="hrSec()[pri:1, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="hrSec" description="12th std" finished-at="2023-05-11T14:20:58 IST" depends-on-methods="businessComponents.DemoAtt.std" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrSec -->
+        <test-method signature="ug()[pri:2, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="ug" description="UG Degree" finished-at="2023-05-11T14:20:58 IST" depends-on-methods="businessComponents.DemoAtt.hrSec" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ug -->
+        <test-method signature="pHD()[pri:4, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="pHD" description="MD Degree" finished-at="2023-05-11T14:20:58 IST" depends-on-methods="businessComponents.DemoAtt.pg" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pHD -->
+        <test-method signature="pg()[pri:3, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="pg" description="PG Degree" finished-at="2023-05-11T14:20:58 IST" depends-on-methods="businessComponents.DemoAtt.ug" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pg -->
+        <test-method signature="dr()[pri:5, instance:businessComponents.DemoAtt@51dcb805]" started-at="2023-05-11T14:20:58 IST" name="dr" description="Dr." finished-at="2023-05-11T14:20:58 IST" depends-on-methods="businessComponents.DemoAtt.pHD" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dr -->
+      </class> <!-- businessComponents.DemoAtt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

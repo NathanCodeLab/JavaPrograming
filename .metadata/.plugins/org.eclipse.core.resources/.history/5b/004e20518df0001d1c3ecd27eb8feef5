@@ -1,0 +1,27 @@
+@Login
+Feature: Login Page and Logged in Function testing
+  I want to Login using crediantals and Validate dashboard page
+
+  @LoginPageValidation
+  Scenario: Login page validation
+    Given I want to open the browser
+    When browser open enter the URL
+    And 
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @LoginCredentials
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+
+   @AfterLoginPage
+   Scenario: Dashboard Page Titl validation
+   		

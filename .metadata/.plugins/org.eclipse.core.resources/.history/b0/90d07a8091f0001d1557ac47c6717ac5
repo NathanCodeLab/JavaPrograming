@@ -1,0 +1,19 @@
+package com.Step_Def;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+
+		features = "/Users/sabarinathan/Documents/Eclipse Project/CucumberFramwork/src/test/resources/Features",
+		glue = "/com.Step_Def",
+		
+		
+
+)
+public class RunnerCucumber {
+
+}

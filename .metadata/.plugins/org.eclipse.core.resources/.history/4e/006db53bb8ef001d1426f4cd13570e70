@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login" verbose="2" parallel="methods" thread-count="1">
+	<test name = "LoginTest" >
+	<parameter name="Benutzername" value="sabari"></parameter>	
+	<parameter name="Benutzerrolle" value="Admin"></parameter>	
+	<parameter name="Mitarbeiter" value="Odis  Adalwin"></parameter>	
+	<parameter name="Status" value="Aktiviert"></parameter>	
+		<classes>
+			<!-- <class name="businessComponents.Login"></class> -->
+			<class name="businessComponents.Dashboard"></class>
+		</classes>
+	</test>
+</suite>
+

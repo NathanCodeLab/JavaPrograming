@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="XMLRunFile" verbose="2" parallel="methods" thread-count="1">
+<test name="Test Cases">
+
+<parameter name="name" value="Sabari"></parameter>
+<parameter name="age" value="27"></parameter>
+
+<classes>
+ <class name="com.TestNGAttributes.DependOnMethod"></class>
+<class name="com.TestNGAttributes.Descriptions"></class>
+<class name="com.TestNGAttributes.EnabledAtt"></class>
+<class name="com.TestNGAttributes.PriorityAtt"></class>
+<class name="com.TestNGAttributes.SampleTestCase"></class>
+<class name="com.TestNGAttributes.DependsOnGroup"></class>
+</classes>
+</test>
+</suite>
+
+
+<!-- 
+<groups>
+<run>
+<include name="Apple"></include>
+</run>
+</groups> -->

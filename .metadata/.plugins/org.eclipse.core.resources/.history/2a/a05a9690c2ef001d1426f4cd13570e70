@@ -1,0 +1,28 @@
+package businessComponents;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import objectRepo.DashboardPage;
+import objectRepo.LoginPage;
+import supportLib.ReusableLib;
+
+public class Login extends ReusableLib {
+
+	
+	@Test(priority=0)
+	public void loginAdmin() {
+		PageFactory.initElements(driver, LoginPage.class);
+		LoginPage.uname();
+		LoginPage.pword();
+		LoginPage.btnlogin();
+		waits(5000);
+	}
+	@Test
+	public void method() {
+		PageFactory.initElements(driver, DashboardPage.class);
+		DashboardPage.clickAdminTab();
+		waits(5000);
+		
+	}
+}

@@ -1,0 +1,37 @@
+package businessComponents;
+
+import org.testng.annotations.Test;
+
+public class DemoAtt {
+
+	@Test(priority = 0, enabled = true, description = "10th std", groups = "Arts")
+	public void std() {
+		System.out.println("Completed 10th class");
+	}
+
+	@Test(priority = 1, enabled = true, description = "12th std", groups = "Arts", dependsOnMethods = "std")
+	public void hrSec() {
+		System.out.println("Completed 12th class");
+	}
+
+	@Test(priority = 2, enabled = true, description = "UG Degree", groups = "Arts", dependsOnMethods = "hrSec")
+	public void ug() {
+		System.out.println("Completed UG Degree");
+	}
+
+	@Test(priority = 3, enabled = false, description = "PG Degree", groups = "Arts", dependsOnMethods = "ug")
+	public void pg() {
+		System.out.println("Completed PG Degree");
+	}
+
+	@Test(priority = 4, enabled = false, description = "MD Degree", groups = "MD", dependsOnMethods = "pg")
+	public void pHD() {
+		System.out.println("Completed PHD Degree");
+	}
+
+	@Test(priority = 5, enabled = true, description = "Dr.", groups = "DR", dependsOnMethods = "pHD")
+	public void dr() {
+		System.out.println("Completed Dr.");
+	}
+
+}

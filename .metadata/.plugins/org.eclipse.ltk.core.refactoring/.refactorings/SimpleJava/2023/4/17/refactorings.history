@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.programming.FactorialNumber&apos; to &apos;FibonacciSeries&apos;&#x0A;- Original project: &apos;SimpleJava&apos;&#x0A;- Original element: &apos;com.programming.FactorialNumber&apos;&#x0A;- Renamed element: &apos;com.programming.FibonacciSeries&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FactorialNumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.programming{FactorialNumber.java[FactorialNumber" matchStrategy="1" name="FibonacciSeries" qualified="false" references="true" similarDeclarations="false" stamp="1682679030682" textual="false" version="1.0"/>
+</session>
