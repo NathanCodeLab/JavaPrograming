@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="businessComponents.DemoAtt">
+      <class name="objectRepo.DuClass">
         <methods>
-          <include name="hrSec"/>
-          <include name="pHD"/>
-          <include name="std"/>
-          <include name="dr"/>
-          <include name="pg"/>
-          <include name="ug"/>
+          <include name="setUPExecuter"/>
         </methods>
-      </class> <!-- businessComponents.DemoAtt -->
+      </class> <!-- objectRepo.DuClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

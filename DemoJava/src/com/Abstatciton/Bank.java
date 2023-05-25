@@ -10,7 +10,7 @@ public abstract class Bank {
 	
 	public void wallet() {
 		
-		System.out.println("Open Wallet");
+		System.out.println("Open Wallet Account");
 		
 	}
 	
